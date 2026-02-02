@@ -1,112 +1,109 @@
-Email Triage Assistant
+# 📧 Email Triage Assistant
 
-An AI-powered Email Triage Assistant built using Streamlit that automatically classifies emails into Urgent, Important, Spam, and Normal, generates short summaries, and provides smart reply suggestions to improve productivity.
-Project Overview
+An **AI-powered Email Triage Assistant** built using **Streamlit** that automatically classifies emails into **Urgent, Important, Spam, and Normal**, generates short summaries, and provides smart reply suggestions to improve productivity.
 
-Managing large volumes of emails is time-consuming and error-prone.
-This project uses Natural Language Processing (NLP) techniques to:
+---
 
-Automatically read emails
+## 📌 Project Overview
 
-Classify them by priority
+Managing large volumes of emails is **time-consuming and error-prone**.  
+This project leverages **Natural Language Processing (NLP)** techniques to automate email handling and prioritization.
 
-Summarize long email content
+The system is designed to:
 
-Suggest quick, context-aware replies
+- Automatically read incoming emails  
+- Classify emails based on priority  
+- Summarize long email content  
+- Suggest quick, context-aware replies  
 
-The system provides a clean dashboard UI for easy navigation and filtering.
+A **clean and interactive dashboard UI** is provided for easy navigation and filtering.
 
-🛠️ Technologies Used
-Frontend
+---
 
-Streamlit – Interactive web UI
+## 🎯 Project Outcomes
 
-HTML & CSS – Custom styling and layouts
+- ✅ Automated email classification using NLP rules  
+- ✅ Real-time email statistics dashboard  
+- ✅ Short and meaningful email summaries  
+- ✅ Smart reply suggestions for faster responses  
+- ✅ Interactive filtering by category  
+- ✅ Deployed as a Streamlit web application  
 
-Backend
+---
 
-Python 3.8+
+## 🛠️ Technologies Used
 
-AI / NLP
+### Frontend
+- **Streamlit** – Interactive web UI  
+- **HTML & CSS** – Custom layouts and styling  
 
-Rule-based + NLP classification logic
+### Backend
+- **Python 3.8+**
 
-Text summarization logic
+### AI / NLP
+- Rule-based + NLP classification logic  
+- Text summarization logic  
+- Automated reply generation  
 
-Automated reply generation
-Project Structure
-EMAILTRIAGEASSISTANT/
-│
-├── app.py                 
-├── requirements.txt       
-│
-├── core/
-│   ├── email_reader.py    
-│   ├── classifier.py      
-│   ├── summarizer.py      
-│   ├── reply_generator.py 
-│
-├── data/
-│   └── sample_emails.json 
-│
-├── ui/
-│   ├── styles.css         
-│   └── layout.html        
-│
-└── README.md              
-Features
+---
 
-📥 Automatic email loading
+## ✨ Features
 
-🚨 Urgent email detection
+- 📥 Automatic email loading  
+- 🚨 Urgent email detection  
+- 📌 Important email identification  
+- 🚫 Spam filtering  
+- 🟢 Normal email categorization  
+- ✂️ AI-powered summarization  
+- ✍️ Smart reply suggestions  
+- 📊 Dashboard with real-time metrics  
+- 🎨 Clean & modern UI  
 
-📌 Important email identification
+---
 
-🚫 Spam filtering
+## 🖼️ Application Screens
 
-🟢 Normal email categorization
+### 🚨 Urgent Emails
+- Highlighted in **red**
+- High-priority alerts such as bank issues and security warnings
+- Immediate action suggested  
 
-✂️ AI-powered summarization
+<img width="934" height="416" src="https://github.com/user-attachments/assets/71978f72-022e-462c-a266-0a27f9ba29fa" />
 
-✍️ Smart reply suggestions
+---
 
-📊 Dashboard with real-time metrics
+### 📌 Important Emails
+- Highlighted in **blue**
+- Includes meetings, deadlines, interviews
+- Professional reply suggestions provided  
 
-🎨 Clean & modern UI
-Application:
-🚨 Urgent Emails
+<img width="953" height="462" src="https://github.com/user-attachments/assets/10ce1c37-e85d-4a4b-b6d5-34dfc1308e94" />
 
-Highlighted in red
+---
 
-High priority alerts like bank issues, security warnings
+### 🚫 Spam Emails
+- Highlighted in **orange**
+- Promotional or marketing emails
+- Automatically identified as promotional  
 
-Immediate action suggested 
-<img width="934" height="416" alt="image" src="https://github.com/user-attachments/assets/71978f72-022e-462c-a266-0a27f9ba29fa" />
-Important Emails
+<img width="938" height="416" src="https://github.com/user-attachments/assets/860ce9c6-5ec3-4b8b-9afd-128d4b4ea837" />
 
-Highlighted in blue
+---
 
-Includes meetings, deadlines, interviews
+### 🟢 Normal Emails
+- Highlighted in **green**
+- Regular informational emails
+- Simple acknowledgment replies suggested  
 
-Professional reply suggestions provided
+<img width="936" height="404" src="https://github.com/user-attachments/assets/e449a2b3-3a92-4772-b98d-b74cd0470013" />
 
-<img width="953" height="462" alt="image" src="https://github.com/user-attachments/assets/10ce1c37-e85d-4a4b-b6d5-34dfc1308e94" />
- Spam Emails
+---
 
-Highlighted in orange
+## ▶️ Steps to Run the Application
 
-Promotional or marketing emails
-
-Automatically marked as promotional
-
-<img width="938" height="416" alt="image" src="https://github.com/user-attachments/assets/860ce9c6-5ec3-4b8b-9afd-128d4b4ea837" />
-Normal Emails
-
-Highlighted in green
-
-Regular informational emails
-
-Simple acknowledgment replies suggested 
- <img width="936" height="404" alt="image" src="https://github.com/user-attachments/assets/e449a2b3-3a92-4772-b98d-b74cd0470013" />
+### 1️⃣ Clone the Repository
+```bash
+git clone <your-repository-url>
+cd EmailTriageAssistant
 
 
