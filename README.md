@@ -101,7 +101,7 @@ A **clean and interactive dashboard UI** is provided for easy navigation and fil
 
 ## ▶️ Steps to Run the Application
 
-### 1️⃣ Clone the Repository
+###  Clone the Repository
 ```bash
  ## 1.git clone <-repository-url>
 cd EmailTriageAssistant
@@ -118,7 +118,7 @@ streamlit run app.py
 
 
 ---------------
-## Conclusion :
+#### Conclusion :
 
 The Email Triage Assistant demonstrates how AI + NLP + Streamlit can be combined to build a real-world productivity tool.
 It helps users prioritize emails efficiently, respond faster, and reduce information overload.
