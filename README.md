@@ -4,7 +4,7 @@ An **AI-powered Email Triage Assistant** built using **Streamlit** that automati
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Managing large volumes of emails is **time-consuming and error-prone**.  
 This project leverages **Natural Language Processing (NLP)** techniques to automate email handling and prioritization.
@@ -22,12 +22,12 @@ A **clean and interactive dashboard UI** is provided for easy navigation and fil
 
 ## 🎯 Project Outcomes
 
-- ✅ Automated email classification using NLP rules  
-- ✅ Real-time email statistics dashboard  
-- ✅ Short and meaningful email summaries  
-- ✅ Smart reply suggestions for faster responses  
-- ✅ Interactive filtering by category  
-- ✅ Deployed as a Streamlit web application  
+-  Automated email classification using NLP rules  
+-  Real-time email statistics dashboard  
+-  Short and meaningful email summaries  
+-  Smart reply suggestions for faster responses  
+-  Interactive filtering by category  
+-  Deployed as a Streamlit web application  
 
 ---
 
@@ -61,7 +61,7 @@ A **clean and interactive dashboard UI** is provided for easy navigation and fil
 
 ---
 
-## 🖼️ Application Screens
+##  Application Screens
 
 ### 🚨 Urgent Emails
 - Highlighted in **red**
@@ -103,7 +103,22 @@ A **clean and interactive dashboard UI** is provided for easy navigation and fil
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone <your-repository-url>
+ ## 1.git clone <-repository-url>
 cd EmailTriageAssistant
+## 2. Create a Virtual Environment
+python -m venv .venv
+## 3.Activate Virtual Environment
+source .venv/bin/activate
+## 4.Install Required Dependencies
+pip install -r requirements.txt
+## 5.Run the Streamlit Application
+streamlit run app.py
+## Conclusion :
+
+The Email Triage Assistant demonstrates how AI + NLP + Streamlit can be combined to build a real-world productivity tool.
+It helps users prioritize emails efficiently, respond faster, and reduce information overload.
+
+
+
 
 
