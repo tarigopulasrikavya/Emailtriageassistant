@@ -113,6 +113,11 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ## 5.Run the Streamlit Application
 streamlit run app.py
+
+
+
+
+---------------
 ## Conclusion :
 
 The Email Triage Assistant demonstrates how AI + NLP + Streamlit can be combined to build a real-world productivity tool.
