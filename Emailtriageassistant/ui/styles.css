@@ -1,0 +1,83 @@
+/* Entire App */
+.stApp {
+    background: linear-gradient(135deg, #fdfcff, #eef2ff, #f0fdfa);
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.block-container {
+    background: transparent !important;
+}
+
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #eef2ff, #f0fdfa);
+}
+
+/* Header */
+.header {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ff6a00;
+}
+
+/* Subheader */
+.subheader {
+    color: #374151;
+    margin-bottom: 16px;
+}
+
+/* Badges */
+.feature-badge {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-right: 6px;
+}
+
+/* Info Panel */
+.info-panel {
+    background: linear-gradient(135deg, #e0f2fe, #f0f9ff);
+    border-left: 6px solid #38bdf8;
+    padding: 14px;
+    border-radius: 12px;
+}
+
+/* Email Card */
+.email-card {
+    background: linear-gradient(135deg, #ffffffcc, #f8fafccc);
+    backdrop-filter: blur(6px);
+    padding: 16px;
+    border-radius: 14px;
+    border-left: 6px solid #6366f1;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.08);
+    margin-bottom: 16px;
+}
+
+/* Category Borders */
+.email-card.urgent { border-left-color: #ef4444; }
+.email-card.important { border-left-color: #3b82f6; }
+.email-card.spam { border-left-color: #f97316; }
+.email-card.normal { border-left-color: #22c55e; }
+
+/* Labels */
+.label {
+    padding: 5px 14px;
+    color: white;
+    border-radius: 18px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.label.urgent { background: #ef4444; }
+.label.important { background: #3b82f6; }
+.label.spam { background: #f97316; }
+.label.normal { background: #22c55e; }
+
+/* Reply Box */
+.reply-box {
+    background: #f1f5f9;
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 12px;
+}
